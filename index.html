@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar-color {
+        color: #fff;
+      }
+      .bg-nav {
+        background-color: #2f2f2f;
+      }
+      .height-footer{
+        height: 100px;
+      }
+      .height-image{
+        height: 100%;
+      }
+      .bg-content {
+        background-color: #f1f1f1;
+      }
+      .bg-button {
+        background-color: #fc9638;
+      }
+      .pd-top {
+        padding-top: 50px;
+      }
+      .pd-right {
+        padding-right: 50px;
+      }
+      .navbar-nav .nav-link:hover {
+        color: inherit !important;
+        background-color: transparent !important;
+      }
+      .navbar-brand:hover {
+        color: inherit !important;
+        background-color: transparent !important;
+      }
+      
+      @media (max-width: 576px) {
+        .card {
+          width: 100% !important;
+        }
+      }
+      @media (min-width: 768px) {
+        .width{
+          width: 18rem !important;
+        }
+      }
+      @media (max-width: 768px) {
+        .full-width{
+          width: 100% !important;
+        }
+      }
+      @media (max-width: 768px) {
+        .padding-top{
+          padding-top: 50px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-nav navbar-color">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <a class="navbar-brand navbar-sm navbar-color mx-auto" href="#"
+              >Bloom</a
+            >
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link navbar-color fw-bold" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-color fw-bold" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-color fw-bold" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-color fw-bold">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-color fw-bold">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-content pd-top pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="fw-bold">Lorem ipsum dolor sit amet</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              sunt, harum eum veritatis eaque cupiditate vero porro quam
+              sapiente repellendus in quasi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              sunt, harum eum veritatis eaque cupiditate vero porro quam
+              sapiente
+            </p>
+            <button type="button" class="btn bg-button fw-bold navbar-color">
+              Learn More
+            </button>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end height-image padding-top">
+            <div class="img-container ">
+              <img
+                src="./anh-bia-17.jpg"
+                class="img-fluid"
+                alt="Sample image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row pt-5 pb-3">
+          <h5 class="fw-bold">This is Heading</h5>
+        </div>
+        <div class="row d-flex justify-content-md-between ">
+          <div class="card border border-0 width full-width">
+            <img
+              src="./images.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button type="button" class="btn bg-button fw-bold navbar-color">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div class="card border border-0 width full-width" >
+            <img
+              src="./tranh-son-dau-phong-canh-mua-thu-mau-21-1.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button type="button" class="btn bg-button fw-bold navbar-color">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div class="card border border-0 width full-width" >
+            <img
+              src="./anh-bia-17.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button type="button" class="btn bg-button fw-bold navbar-color">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class=" d-flex justify-content-sm-center align-items-sm-center height-footer bg-dark text-light mt-4">
+     <h4> Copyright by Hua Nhu Duy</h4>
+    </footer>
+    </div>
+  </body>
+</html>
